@@ -1,0 +1,367 @@
+/* ==========================
+------Шапка Site NAV------ */
+
+.main-nav {
+    padding-top: 14px;
+}
+
+.nav-contacts {
+    display: flex;
+    align-items: self-start;
+    border-bottom: 1px solid black;
+}
+
+.number {
+    display: flex;
+}
+
+/* --Navigation-- */
+header {
+    background-color: var(--second-bg-color);
+    font-family: var(--second-fonts-family);
+    color: var(--title-text-color);
+}
+
+.nav__upp {
+    display: flex;
+}
+
+.language-switcher {
+    margin: 0 auto;
+    color: var(--title-text-color);
+    font-size: 16px;
+    background-color: inherit;
+
+}
+
+/* .language-switcher-item{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    stroke: var(--title-text-color);
+} */
+/* .language-switcher-item:hover{
+    stroke: var(--accent-color);
+} */
+/* .language__link{
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-weight: 500;
+}
+.language__link:hover{
+    color: var(--accent-color);
+} */
+
+
+/* --Contacts-- */
+.contact-nav {
+    display: flex;
+    margin-left: auto;
+    /* flex-direction: row; */
+    max-height: 80px;
+}
+
+.input__number {
+    display: block;
+    background-color: var(--input-grey);
+    border: none;
+    border-radius: 1px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: var(--title-text-color);
+}
+
+.input__number::placeholder {
+    font-size: 18px;
+    color: var(--title-text-color);
+}
+
+.contact-nav-link {
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: var(--title-text-color);
+    font-family: var(--second-fonts-family);
+    padding-left: 24px;
+    /* ---анимация--- */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-nav-link span {
+    color: var(--phone-grey);
+}
+
+.contact-nav-link:hover,
+.contact-nav-link:focus {
+    color: var(--accent-color);
+}
+
+.icon-right-header {
+    stroke: white;
+}
+
+.icon-right-header:hover {
+    stroke: var(--accent-color);
+}
+
+.site-nav {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.site-nav .nav-link {
+    color: var(--title-text-color);
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* ---анимация--- */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-transform: uppercase;
+}
+
+.site-nav .nav-link:hover {
+    color: var(--accent-color);
+    stroke: var(--accent-color);
+}
+
+/* ---- сложное основное меню ----   */
+.site-nav-item {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.site-nav-menu {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: var(--title-text-color);
+    stroke: var(--title-text-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.site-nav-menu:hover {
+    color: var(--accent-color);
+    stroke: var(--accent-color);
+}
+
+.submenu {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    width: 180px;
+    /* transform: rotateX(-90deg); */
+    transform-origin: 0 0;
+    transition: .3s linear;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+}
+
+.site-nav li:hover>.submenu {
+    /* transform: rotateX(0deg); */
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-size: 14px;
+    display: block;
+    border-bottom: 1px solid var(--phone-grey);
+    padding: 5px 5px 5px 15px;
+    background-color: var(--second-bg-color);
+}
+
+.submenu a:hover {
+    color: var(--accent-color);
+}
+
+.arrowCaretUp {
+    transform: rotate(180deg);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .nav-contacts {
+        margin-top: 20px;
+    }
+
+    .contact-nav {
+        flex-direction: column-reverse;
+    }
+
+    .header-phone {
+        display: block;
+        text-align: right;
+    }
+
+    .site-nav {
+        margin-left: auto;
+        gap: 20px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .submenu {
+        left: -10px;
+    }
+
+    .site-nav li:hover>.submenu {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .site-nav {
+        gap: 0;
+    }
+
+    .button-header {
+        font-size: 16px;
+    }
+
+    .input__number::placeholder {
+        font-size: 16px;
+    }
+
+    .input__number {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .site-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .site-nav-menu {
+        font-size: 14px;
+    }
+
+    .language-switcher {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    .logo__header-img {
+        max-width: 130px;
+    }
+
+    .nav-contacts {
+        justify-content: space-between;
+    }
+
+    .input__number {
+        padding: 10px 20px;
+        font-size: 14px;
+        max-width: 185px;
+    }
+
+    .input__number::placeholder {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .button-header {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .language-switcher {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    /* .submenu a{
+        font-size: 12px;
+        padding: 5px 5px 5px 10px;
+    } */
+    /* .site-nav li:hover > .submenu{
+       width: 130px;
+    } */
+}
+
+@media screen and (max-width: 490px) {
+    .input__number {
+        padding-left: 15px;
+        max-width: 150px;
+    }
+
+    .input__number::placeholder {
+        padding-left: 0;
+
+    }
+
+}
+
+@media screen and (max-width: 455px) {
+    .number {
+        justify-content: flex-end;
+    }
+
+    .icon-right-header {
+        display: none;
+    }
+
+    .header-phone {
+        font-size: 26px;
+    }
+
+    .input__number {
+        font-size: 11px;
+        padding-left: 5px;
+        padding-right: 5px;
+        max-width: 105px;
+    }
+
+    .input__number::placeholder {
+        font-size: 11px;
+        padding-left: 5px;
+    }
+
+    .button-header {
+        font-size: 11px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .icon-right-header {
+        display: flex;
+    }
+
+    .button-header>span {
+        display: none;
+    }
+
+    .button-header {
+        margin: 0;
+    }
+
+    .header-phone {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .header-phone {
+        font-size: 20px;
+    }
+}
