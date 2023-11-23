@@ -1,0 +1,197 @@
+/* ========================
+======SERVICES SECTION"======
+=========================== */
+
+.hero-services-section {
+    background-color: var(--footer-bg-color);
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image:
+        url("/src/images/icons_services/photo_avto.jpg");
+}
+
+.services-container {}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2px;
+    justify-content: center;
+    column-gap: 2px;
+}
+
+.service-list>.card-item {
+    background-color: rgba(31, 51, 67, 0.9);
+    justify-content: center;
+    /* ---анимация--- */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-list>.card-item:hover {
+    background-color: #76b703;
+}
+
+.service-item {
+    display: block;
+    text-decoration: none;
+    padding: 40px 30px;
+    color: var(--text-white-color);
+    width: 220px;
+    height: 200px;
+    position: relative;
+}
+
+.service-item:hover,
+.service-item:focus {
+    color: var(--title-text-color);
+    width: 230px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* ---анимация--- */
+    transition: box-shadow color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-item::before {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    right: 80px;
+    top: 40px;
+}
+
+.car_kyev::before {
+    background-image: url(../images/icons_services/1_gr.png);
+}
+
+.car_ukraine::before {
+    background-image: url(../images/icons_services/2_gr.png);
+}
+
+.international::before {
+    background-image: url(../images/icons_services/3_gr.png);
+}
+
+.address-mailing::before {
+    background-image: url(../images/icons_services/4_gr.png);
+}
+
+.resp-storage::before {
+    background-image: url(../images/icons_services/5_rg.png);
+}
+
+.sorting::before {
+    background-image: url(../images/icons_services/6_rg.png);
+}
+
+.fulfillment::before {
+    background-image: url(../images/icons_services/7_gr.png);
+}
+
+.standart_cond::before {
+    background-image: url(../images/icons_services/8_gr.png);
+}
+
+.express_cond::before {
+    background-image: url(../images/icons_services/9_gr.png);
+}
+
+.ukr_cond::before {
+    background-image: url(../images/icons_services/arrow_green.png);
+    width: 135px;
+    height: 135px;
+    right: 50px;
+    top: 30px;
+}
+
+
+.car_kyev:hover::before {
+    background-image: url(../images/icons_services/1_bl.png);
+}
+
+.car_ukraine:hover::before {
+    background-image: url(../images/icons_services/2_bl.png);
+}
+
+.international:hover::before {
+    background-image: url(../images/icons_services/3_bl.png);
+}
+
+.address-mailing:hover::before {
+    background-image: url(../images/icons_services/4_bl.png);
+}
+
+.resp-storage:hover::before {
+    background-image: url(../images/icons_services/5_bl.png);
+}
+
+.sorting:hover::before {
+    background-image: url(../images/icons_services/6_bl.png);
+}
+
+.fulfillment:hover::before {
+    background-image: url(../images/icons_services/7_bl.png);
+}
+
+.standart_cond:hover::before {
+    background-image: url(../images/icons_services/8_bl.png);
+}
+
+.express_cond:hover::before {
+    background-image: url(../images/icons_services/9_bl.png);
+}
+
+.ukr_cond:hover::before {
+    background-image: url(../images/icons_services/arrow_gray.png);
+}
+
+
+.service-content-title {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 90px;
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .hero-services-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero-services-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service-content-title {
+        font-size: 14px;
+    }
+
+    .service-item {
+        padding: 20px 15px;
+
+    }
+
+    .service-content>img {
+        width: 40px;
+    }
+}

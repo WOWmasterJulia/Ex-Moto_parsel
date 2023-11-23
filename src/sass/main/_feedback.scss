@@ -1,0 +1,143 @@
+/* ========================
+======FEEDBACK SECTION"======
+=========================== */
+.feedback-section {
+    margin: 0px auto;
+    background-color: var(--primary-bg-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feedback_title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.feedback_title {
+    animation: bottom-to-top 2s ease-in-out 0s 1 both;
+}
+
+@keyframes bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY (200px);
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY (0);
+    }
+}
+
+.feedback-swiper {
+    overflow: hidden;
+    position: relative;
+}
+
+.feedback-swiper .swiper-wrapper {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.feedback__descr {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2px;
+    column-gap: 2px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.feedback__item-img-wrap {
+    background-color: var(--primary-bg-color);
+    padding: 8px;
+    border: 1px solid #dfe1e4;
+}
+
+.feedback-swiper .swiper-pagination {
+    margin-bottom: 20px;
+}
+
+.feedback-swiper .swiper-pagination-bullet {
+    border-color: var(--footer-bg-color);
+    width: 53px;
+    height: 5px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1180px) {
+    .feedback_main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .feedback_title {
+        font-size: 26px;
+    }
+
+    .feedback__descr {
+        padding-top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .feedback-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .feedback__descr {
+        min-width: 250px;
+    }
+
+    .feedback_title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .feedback__descr {
+        min-width: 200px;
+    }
+
+    .feedback_title {
+        font-size: 18px;
+    }
+
+    .button-feedback {
+        padding: 15px 15px;
+        font-size: 14px;
+    }
+
+    .feedback-swiper .swiper-pagination-bullet {
+        width: 35px;
+        height: 3px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .feedback-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .button-feedback {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .feedback_title {
+        /* font-size: 16px; */
+    }
+}

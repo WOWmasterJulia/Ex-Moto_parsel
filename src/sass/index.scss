@@ -1,2 +1,16 @@
 @import './common';
-@import './example';
+@import './base';
+@import './button';
+@import './burger_menu';
+@import './header';
+@import './footer';
+
+// Main
+@import './main/hero';
+@import './main/services';
+@import './main/feedback';
+
+// Standart page
+@import './crumbs';
+@import './standart/text_part';
+@import './card_items';

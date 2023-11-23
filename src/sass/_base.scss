@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    /* text color */
+    --title-text-color: #374a59;
+    --light-text-color: #fbfbfb;
+    --text-white-color: #fff;
+    --primary-text-color: #434455;
+    --text-footer-white: #E7E9FC;
+
+    --input-grey: #d8dbdd;
+    --phone-grey: #738593;
+    --accent-color: #76b703;
+    --icons-bg: #CCCCCC;
+
+    /* bg color */
+    --primary-bg-color: #fff;
+    --footer-bg-color: #253a4a;
+    ;
+    --second-bg-color: #ebebeb;
+
+    /* fonts */
+    --primary-fonts-family: 'Ubuntu';
+    --second-fonts-family: sans-serif;
+
+    /* others */
+    --header-idx: 100;
+    --modal-idx: 1000;
+    --anim-fast: 1300ms ease;
+    --anim-slow: 1800ms ease-out;
+}
+
+body {
+    font-family: var(--primary-fonts-family);
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}

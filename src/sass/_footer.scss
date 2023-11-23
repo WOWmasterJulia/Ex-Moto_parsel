@@ -1,0 +1,225 @@
+/*========================== 
+------Подвал FOOTER------ */
+.footer {
+    background-color: var(--footer-bg-color);
+    color: var(--text-footer-white);
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    justify-content: center;
+    font-size: 11px;
+    font-size: sans-serif;
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer__logo-text {
+    width: 25%;
+    padding: 0 20px;
+}
+
+.logo__footer-img {
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    margin: 0 0 15px;
+}
+
+.footer__list-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__list-moto,
+.footer__list-service,
+.footer__list-contacts {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer__list-title>h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer__list-item {
+    margin-bottom: 16px;
+}
+
+.footer__list-item a:hover {
+    color: var(--accent-color);
+    /* ---анимация--- */
+    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+.footer__list-item a {
+    color: var(--text-footer-white);
+}
+
+.footer__contacts-social {
+    width: 25%;
+    text-align: right;
+    display: block;
+    justify-content: flex-end;
+}
+
+.item-tel {
+    margin-bottom: 50px;
+}
+
+.item-tel a {
+    color: var(--text-footer-white);
+}
+
+.footer-phone span {
+    color: var(--icons-bg)
+}
+
+.footer-soc-list {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.footer-soc-link {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    border-radius: 50%;
+    background-color: var(--icons-bg);
+    justify-content: center;
+    align-items: center;
+    /* ---анимация--- */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: var(--accent-color);
+}
+
+.footer-soc-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-right-footer {
+    stroke: white;
+}
+
+.icon-right-footer:hover {
+    stroke: var(--accent-color);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .footer__contacts-social {
+        width: 100%;
+        display: block;
+    }
+
+    .contact-nav-link {
+        text-align: right;
+    }
+
+    .item-button {
+        padding-left: auto;
+        color: #fbfbfb;
+        padding-left: 0;
+        max-width: 150px;
+        display: inline-block;
+    }
+
+    .item-tel {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .button-footer {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    .button-footer {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .footer__logo-text {
+        width: 60%;
+        padding: 0 20px 20px 20px;
+    }
+
+    .footer__list-menu {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .item-tel {
+        margin-bottom: 15px;
+    }
+
+    .footer-soc-list {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    .footer__list-title>h3 {
+        font-size: 14px;
+    }
+
+    .footer__logo-text {
+        width: 80%;
+    }
+
+    .footer__list-menu {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer__logo-text {
+        width: 100%;
+    }
+
+    .footer__list-menu {
+        gap: 0;
+    }
+
+    .footer__list-moto,
+    .footer__list-service,
+    .footer__list-contacts {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer-phone {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .button-footer {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+}
