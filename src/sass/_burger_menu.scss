@@ -58,8 +58,10 @@
 .menu-container.is-open {
     transform: translateX(0);
 } */
+
 .menu-btn-burger {
-    top: 15px;
+    // position: absolute;
+    // margin-top: 15px;
     right: 15px;
     display: none;
     align-items: center;
@@ -127,6 +129,9 @@
 
     .site-nav {
         display: none;
+    }
+    .phone-burger {
+        display: flex;
     }
 
     .nav-contacts {
