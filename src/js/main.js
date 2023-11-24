@@ -10,7 +10,7 @@ const swiperOne = new Swiper(".main-swiper", {
     },
   });
   
-  const swiperTwo = new Swiper(".feedback-swiper", {
+ const swiperTwo = new Swiper(".feedback-swiper", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
