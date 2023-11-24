@@ -256,7 +256,28 @@ header {
         font-size: 14px;
     }
 }
+@media screen and (max-width: 793px) {
+    // .menu-toggle {
+    //     display: flex;
+    // }
 
+    .site-nav {
+        display: none;
+    }
+
+    .phone-burger {
+        display: flex;
+    }
+
+    .nav-contacts {
+        padding-bottom: 10px;
+        border-bottom: none;
+    }
+
+    .contact-nav {
+        max-height: 120px;
+    }
+}
 @media screen and (max-width: 787px) {
     .logo__header-img {
         max-width: 130px;
