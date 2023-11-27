@@ -10,12 +10,18 @@
 @import './main/services';
 @import './main/feedback';
 
+// All pages
 // Standart page
 @import './crumbs';
-@import './standart/text_part';
+@import './text_part';
 @import './card_items';
 
 // Express page 
-@import './crumbs';
-@import './express/text_part';
-@import './card_items';
+// @import './crumbs';
+// @import './text_part';
+// @import './card_items';
+
+// superExpress page 
+// @import './crumbs';
+// @import './text_part';
+// @import './card_items';
