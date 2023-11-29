@@ -1,3 +1,11 @@
+a {
+    text-decoration: none;
+    color: #76b703;
+}
+a:hover {
+    text-decoration:dashed;
+    color: inherit;
+}
 .page-section-wrapper {
     display: flex;
     padding-left: 15px;
@@ -16,6 +24,11 @@
 }
 .page-text {
     text-align: justify;
+}
+.page-text-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
 .page-header-icon {
     padding-right: 20px;
@@ -36,6 +49,9 @@
     padding: 50px 50px 50px 50px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    // flex-wrap: wrap;
+    // justify-content: center;
 }
 
 
