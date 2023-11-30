@@ -143,6 +143,17 @@
     //     max-height: 120px;
     // }
 }
+@media screen and (max-width: 475px) {
+    .modal {
+        top: 2%;
+        padding: 30px 25px 30px 30px;
+    }
+    .menu-btn-close {
+        top: 15px;
+        right: 15px;
+    }
+}
+
 
 /* ----выпадающие элементы меню на модалке при адаптивах----  */
 .submenu-open {
