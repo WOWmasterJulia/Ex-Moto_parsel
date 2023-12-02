@@ -16,6 +16,10 @@ a:hover {
 .wrap-courier {
     display: block;
 }
+.wrap-payment{
+    display: flex;
+    flex-direction: column;
+}
 .page-section-items {
     padding-right: 15px;
 }
