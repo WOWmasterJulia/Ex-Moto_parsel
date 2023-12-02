@@ -149,6 +149,7 @@ header {
     stroke: var(--title-text-color);
     padding-top: 24px;
     padding-bottom: 25px;
+    
 }
 
 .site-nav-menu:hover {
@@ -167,6 +168,7 @@ header {
     visibility: hidden;
     opacity: 0;
     z-index: 10;
+    line-height: 1.33;
 }
 
 .site-nav li:hover>.submenu {
