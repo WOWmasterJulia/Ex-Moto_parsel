@@ -1,0 +1,2 @@
+var accordeon=document.querySelector(".accordeon"),accordeonTitles=accordeon.querySelectorAll(".accordeon__title");accordeonTitles.forEach.call(accordeonTitles,(function(e){e.addEventListener("click",(function(){var c=e.parentElement.querySelector(".accordeon__text");e.classList.toggle("accordeon__title--active"),c.classList.toggle("accordeon__text--visible"),c.classList.contains("accordeon__text--visible")?c.style.maxHeight=c.scrollHeight+"px":c.style.maxHeight=null}))}));
+//# sourceMappingURL=questionsPage.4a529ae9.js.map
