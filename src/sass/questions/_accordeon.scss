@@ -46,6 +46,7 @@
 // }
 .accordeon__text ol {
     margin-top: 0;
+    font-size: 16px;
 }
 
 .accordeon__text.accordeon__text--visible {
@@ -67,6 +68,9 @@
     .accordeon__text.accordeon__text--visible>.page-text {    
         font-size: 14px;   
     }
+    .accordeon__text ol {
+        font-size: 14px;
+    }
 }
 @media (max-width: 787px) {
     .accordeon__title{
@@ -76,19 +80,18 @@
         font-size: 12px;
         padding: 10px;
     }
+    .accordeon__text ol {
+        font-size: 12px;
+    }
 }
 @media (max-width: 455px) {
     .accordeon__title {
         font-size: 12px;
     }
     .accordeon__text.accordeon__text--visible>.page-text {
+        font-size: 11px;    
+    }
+    .accordeon__text ol {
         font-size: 11px;
-        
     }
 }
-// @media (max-width: 430px) {
-//     .top__img-l {
-//         width: 135px;
-//         margin-top: 20px;
-//     }
-// }
