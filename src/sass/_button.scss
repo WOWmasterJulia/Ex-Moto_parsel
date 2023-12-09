@@ -53,53 +53,53 @@
 }
 
 
-.button-feedback {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fbfbfb;
-  padding: 15px 30px;
-  gap: 10px;
+// .button-feedback {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   color: #fbfbfb;
+//   padding: 15px 30px;
+//   gap: 10px;
 
-}
+// }
 
-.button-feedback:hover {
-  background-color: var(--footer-bg-color);
-}
+// .button-feedback:hover {
+//   background-color: var(--footer-bg-color);
+// }
 
-.icon-right-feedback {
-  stroke: white;
-}
+// .icon-right-feedback {
+//   stroke: white;
+// }
 
-.icon-right-feedback:hover {
-  stroke: var(--accent-color);
-}
+// .icon-right-feedback:hover {
+//   stroke: var(--accent-color);
+// }
 
-@media screen and (max-width: 980px) {
-  .button-feedback {
-    font-size: 16px;
-  }
-}
+// @media screen and (max-width: 980px) {
+//   .button-feedback {
+//     font-size: 16px;
+//   }
+// }
 
-@media screen and (max-width: 787px) {
-  .button-feedback {
-    padding: 15px;
-    font-size: 14px;
-  }
-}
+// @media screen and (max-width: 787px) {
+//   .button-feedback {
+//     padding: 15px;
+//     font-size: 14px;
+//   }
+// }
 
-@media screen and (max-width: 430px) {
-  .button-feedback {
-    font-size: 11px;
-  }
-}
+// @media screen and (max-width: 430px) {
+//   .button-feedback {
+//     font-size: 11px;
+//   }
+// }
 
-@media screen and (max-width: 340px) {
-  .icon-right-feedback {
-    display: flex;
-  }
+// @media screen and (max-width: 340px) {
+//   .icon-right-feedback {
+//     display: flex;
+//   }
 
-  .button-feedback {
-    margin: 0 auto;
-  }
-}
+//   .button-feedback {
+//     margin: 0 auto;
+//   }
+// }
