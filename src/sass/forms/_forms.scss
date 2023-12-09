@@ -1,4 +1,4 @@
-/*++++++++++++ PAGE NEWORDER +++++++++++++++++++++*/
+/*++++++++++++ PAGE courier and Send Email +++++++++++++++++++++*/
 .captcha {
     display: flex;
     flex-direction: column;
@@ -6,23 +6,25 @@
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.form-call-courier {
+.form-call-courier, .form-send-mail {
     width: 400px;
     padding: 50px 50px 50px 50px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    // flex-wrap: wrap;
-    // justify-content: center;
 }
 
-.courier-input-name, .courier-input-phone{
+.form-input-name, .form-input-phone, .form-input-mail{
     margin-bottom: 15px;
     height: 40px;
     padding-left: 10px;
 }
+.form-input-textarea{
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
 
-.button-courier {
+.form-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,36 +34,36 @@
 
 }
 
-.button-courier:hover {
+.form-button:hover {
     background-color: var(--footer-bg-color);
 }
 
 
 
 @media screen and (max-width: 980px) {
-    .button-courier {
+    .form-button {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 787px) {
-    .button-courier {
+    .form-button {
         padding: 15px;
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 430px) {
-    .form-call-courier {
+    .form-call-courier, .form-send-mail {
         width: 300px;
     }
-    .button-courier {
+    .form-button {
         font-size: 11px;
     }
 }
 
 @media screen and (max-width: 340px) {
-    .button-courier {
+    .form-button {
         margin: 0 auto;
     }
 }
