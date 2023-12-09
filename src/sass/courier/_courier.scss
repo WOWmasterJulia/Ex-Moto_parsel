@@ -1,0 +1,67 @@
+/*++++++++++++ PAGE NEWORDER +++++++++++++++++++++*/
+.captcha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.form-call-courier {
+    width: 400px;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    // flex-wrap: wrap;
+    // justify-content: center;
+}
+
+.courier-input-name, .courier-input-phone{
+    margin-bottom: 15px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.button-courier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fbfbfb;
+    padding: 15px 30px;
+    gap: 10px;
+
+}
+
+.button-courier:hover {
+    background-color: var(--footer-bg-color);
+}
+
+
+
+@media screen and (max-width: 980px) {
+    .button-courier {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    .button-courier {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .form-call-courier {
+        width: 300px;
+    }
+    .button-courier {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .button-courier {
+        margin: 0 auto;
+    }
+}

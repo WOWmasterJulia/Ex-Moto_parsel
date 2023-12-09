@@ -10,22 +10,26 @@
       
       <form class="form-call-courier" action="/neworder" method="post"
       id="webform-client-form-356" accept-charset="UTF-8">
-        <label class="control-label" for="edit-submitted-contact">
+        <!-- <label class="control-label" for="edit-submitted-contact"> -->
+        <label class="courier-label" for="edit-submitted-name"> 
           Ваше імʼя <span class="form-required" title="Це поле - обов’язкове.">*</span>
         </label>
-        <input required="required" class="" type="text" id="edit-submitted-contact"
-          name="submitted[contact]" value="" size="300px" maxlength="128" />
-        <label class="control-label" for="edit-submitted-phone">
+        <input required="required" class="courier-input-name" type="text" id="edit-submitted-name"
+          name="submitted[name]" value="" size="300px" maxlength="128" />
+        <!-- <label class="control-label" for="edit-submitted-phone"> -->
+          <label class="courier-label" for="edit-submitted-phone">
           Телефон № <span class="form-required" title="Це поле - обов’язкове.">*</span>
         </label>
-        <input required="required" class="" type="text" id="edit-submitted-phone"
+        <input required="required" class="courier-input-phone" type="text" id="edit-submitted-phone"
           name="submitted[phone]" value="" size="60" maxlength="128" />
-        <input type="hidden" name="details[sid]" />
+          
+        <!-- <input type="hidden" name="details[sid]" />
         <input type="hidden" name="details[page_num]" value="1" />
         <input type="hidden" name="details[page_count]" value="1" />
         <input type="hidden" name="details[finished]" value="0" />
         <input type="hidden" name="form_build_id" value="form-NToQRKb-Yzi3om56lJJdLKgxsfOgcrbv-RolhOxAp3I" />
-        <input type="hidden" name="form_id" value="webform_client_form_356" />
+        <input type="hidden" name="form_id" value="webform_client_form_356" /> -->
+
         <div class="captcha">
           <input type="hidden" name="captcha_sid" value="317108" />
           <input type="hidden" name="captcha_token" value="2e08138713f31e0eb502e74b3a81d084" />
@@ -33,11 +37,22 @@
           <div class="g-recaptcha" data-sitekey="6LeNOJEUAAAAAJzgr37OmGmKP3bxwpi2kXjURQGg" data-theme="light"
             data-type="image"></div>
         </div>
-        <div class="form-actions">
+
+        <!-- <div class="form-actions">
           <button class="webform-submit button-primary btn btn-primary form-submit" type="submit" name="op"
             value="Надіслати">Надіслати</button>
-        </div>
+        </div> -->
+
+        <button class="button button-courier" type="submit">
+          <span class="lng-section-">Надіслати</span>
+        </button>
     </form>
+</div>
+    <!-- <include src="./partials/card_items.html"></include> -->
+  </div>
+</section>
+
+
       <!-- <p class="page-text">EXPRESS MOTO UKRAINE – це кур’єрська служба з великим досвідом здійснення доставок для Бізнеса та з корпоративною культурою, що напрацьована роками та містить в собі якісний сервіс для клієнтів та сприятливі умови праці для співробітників.</p>
       <p class="page-text">Відповідальність, гнучкість, ініціативність, націленість на результат, підтримка та чуйність – це якості, з якими наші співробітники досягають високих професійних досягнень та кращих результатів для компанії в цілому.</p>
       <p class="page-text"><strong>Робота в EXPRESS MOTO – це:</strong></p>
@@ -75,8 +90,8 @@
       <!-- <p class="page-text"> </p> -->
       <!-- <p><a href="#" target="_blank">Укласти угоду та скористатися послугами</a>
       </p> -->
-    </div>
+    <!-- </div> -->
     <!-- <include src="./partials/card_items.html"></include> -->
-  </div>
-</section>
+  <!-- </div>
+</section> -->
 
