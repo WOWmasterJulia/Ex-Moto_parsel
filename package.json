@@ -3,9 +3,10 @@
   "version": "2.0.0",
   "description": "",
   "homepage": "https://WOWmasterJulia.github.io/Ex-Moto_parcel",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Ex-Moto_parcel/"
+    "start": "parcel",
+    "build": "parcel build --public-url /exmoto-eva/"
   },
   "repository": {
     "type": "git",
