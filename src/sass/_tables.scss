@@ -1,0 +1,25 @@
+.add-services_table th {
+    background-color: #76b703;
+    color: white;
+}
+
+.add-services_table-item>tr:hover {
+    background-color: #76b703;
+    color: white;
+}
+
+/* Table styling */
+.add-services_table {
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.add-services_table th,
+.add-services_table td {
+    padding: 8px;
+    border: 1px solid #374a59;
+}
+
+body {
+    font-family: sans-serif;
+}
