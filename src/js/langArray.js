@@ -152,8 +152,8 @@ export const langArr = {
       "ru" : "Новое в EXPRESS MOTO",
     },
     "footer-official-info" : {
-      "ua" : "Офіційна інформація",
-      "ru" : "Официальная информация",
+      "ua" : "Публічний договір",
+      "ru" : "Публичный договор",
     },
     "footer-agr-edo" : {
       "ua" : "Угода про ЕДО",
