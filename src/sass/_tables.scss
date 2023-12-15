@@ -27,3 +27,32 @@
 body {
     font-family: sans-serif;
 }
+
+@media screen and (max-width: 980px) {
+    // .page-section {
+    //     font-size: 16px;
+    // }
+}
+
+@media screen and (max-width: 787px) {
+    .add-services_table {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .add-services_table {
+        font-size: 12px;
+    }
+
+    // .page-header>.page-header-icon {
+    //     padding-right: 10px;
+    //     margin-right: 10px;
+    //     border-right: 3px solid var(--accent-color);
+    // }
+}
+@media screen and (max-width: 430px) {
+    .add-services_table {
+        font-size: 11px;
+    }
+}
