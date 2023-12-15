@@ -20,9 +20,9 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
-.page-section-items {
-    padding-right: 15px;
-}
+// .page-section-items {
+//     padding-right: 15px;
+// }
 .page-header {
     display: flex;
     padding-bottom: 9px;
@@ -64,17 +64,6 @@ a:hover {
         font-size: 16px;
     }
 }
-
-@media screen and (max-width: 430px) {
-    .page-section-wrapper {
-        font-size: 11px;
-        flex-direction: column;
-    }
-
-    .page-section-items {
-        padding-right: 0px;
-    }
-}
  @media screen and (max-width: 787px) {
      .page-section {
          font-size: 14px;
@@ -89,5 +78,15 @@ a:hover {
          padding-right: 10px;
          margin-right: 10px;
          border-right: 3px solid var(--accent-color);
+     }
+ }
+ @media screen and (max-width: 430px) {
+     .page-section-wrapper {
+         font-size: 11px;
+         flex-direction: column;
+     }
+
+     .page-section-items {
+         padding-right: 0px;
      }
  }

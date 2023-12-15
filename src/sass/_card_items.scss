@@ -4,7 +4,8 @@
     grid-gap: 5px;
     grid-template-columns: 50% 50%;
     grid-template-rows: 133px 133px 133px 133px 133px;
-    padding-right: 5px;
+    // padding-right: 5px;
+    margin-left: 10px;
 }
 .card-item {
     border: 1px solid #374a59;
@@ -43,23 +44,24 @@
         grid-template-columns: 1fr;
     }
 }
-@media screen and (max-width: 430px) {
-    // .wrapper-main {
-    //     font-size: 11px;
-    //     flex-direction: column;
-    // }
 
-    .view-content {
-        padding-top: 25px;
-
-    }
-}
 @media screen and (max-width: 455px) {
     .card-item {
         padding: 10px 10px;
         font-size: 12px;
     }
 
+}
+@media screen and (max-width: 430px) {
+
+    // .wrapper-main {
+    //     font-size: 11px;
+    //     flex-direction: column;
+    // }
+    .view-content {
+        padding-top: 25px;
+        margin-left: 0;
+    }
 }
 @media screen and (max-width: 360px) {
     .card-item {

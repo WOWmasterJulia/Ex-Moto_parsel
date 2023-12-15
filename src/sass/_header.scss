@@ -321,6 +321,10 @@ header {
 }
 
 @media screen and (max-width: 490px) {
+    // .nav-contacts {
+    
+    //         padding-bottom: 5px;
+    //     }
     .input__number {
         padding-left: 15px;
         max-width: 150px;
@@ -330,16 +334,27 @@ header {
         padding-left: 0;
 
     }
-        .header-phone {
-            font-size: 26px;
+    .header-phone {
+        font-size: 26px;
+    }
+    .number {
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+        .language-switcher {
+            font-size: 12px;
         }
 
 }
 
 @media screen and (max-width: 455px) {
-    .number {
-        justify-content: flex-end;
-    }
+    .nav-contacts {
+            
+            padding-bottom: 5px;
+        }
+    // .number {
+    //     justify-content: flex-end;
+    // }
 
     .icon-right-header {
         display: none;
@@ -366,10 +381,13 @@ header {
         margin-left: 0;
         margin-right: 0;
     }
-        .contact-nav-link {
-            padding-left: 0;
-           
-        }
+    .contact-nav-link {
+        padding-left: 0;
+        
+    }
+        // .language-switcher {
+        //     font-size: 12px;
+        // }
 }
 
 @media screen and (max-width: 370px) {
