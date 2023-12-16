@@ -30,9 +30,9 @@ body {
 .agreement-requisites{
     display: none;
 }
-.main_address-compact {
-    display: none;
-}
+// .main_address-compact {
+//     display: none;
+// }
 
 @media screen and (max-width: 980px) {
     // .page-section {
@@ -74,10 +74,10 @@ body {
     .add-services_table {
         font-size: 11px;
     }
-    .main_address{
-        display: none;
-    }
-    .main_address-compact{
-        display: block;
-    }
+    // .main_address{
+    //     display: none;
+    // }
+    // .main_address-compact{
+    //     display: block;
+    // }
 }
