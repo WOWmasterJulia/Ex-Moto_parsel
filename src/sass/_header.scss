@@ -183,7 +183,8 @@ header {
     font-size: 14px;
     display: block;
     border-bottom: 1px solid var(--phone-grey);
-    padding: 5px 5px 5px 15px;
+    // padding: 5px 5px 5px 15px;
+    padding: 10px 5px 10px 15px;
     background-color: var(--second-bg-color);
 }
 
@@ -219,11 +220,10 @@ header {
 
 @media screen and (max-width: 1100px) {
     .submenu {
-        left: -10px;
+        // left: -10px;
     }
-
     .site-nav li:hover>.submenu {
-        width: 150px;
+        // width: 150px;
     }
 }
 
@@ -350,9 +350,8 @@ header {
 
 @media screen and (max-width: 455px) {
     .nav-contacts {
-            
-            padding-bottom: 5px;
-        }
+        padding-bottom: 5px;
+    }
     // .number {
     //     justify-content: flex-end;
     // }
