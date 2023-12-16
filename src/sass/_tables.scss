@@ -27,7 +27,7 @@
 body {
     font-family: sans-serif;
 }
-.agreement-requisites{
+.agreement-requisites, .contacts_table-jpg{
     display: none;
 }
 // .main_address-compact {
@@ -49,21 +49,23 @@ body {
     .requisites_table, .contacts_table{
         display: none;
     }
-    // .agreement-requisites-wrap{
-    //     padding-right: 10px;
-    // }
     .agreement-requisites, .contacts_table-jpg {
         display: block;
-        // width: 50%;
-        // margin-right: 5px;
-        // margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .add-services_table {
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 455px) {
     .add-services_table {
         font-size: 12px;
     }
-
+    .add-services_table { 
+        margin-bottom: 10px;
+    }
     // .page-header>.page-header-icon {
     //     padding-right: 10px;
     //     margin-right: 10px;
