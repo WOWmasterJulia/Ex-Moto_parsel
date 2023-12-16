@@ -30,6 +30,9 @@ body {
 .agreement-requisites{
     display: none;
 }
+.main_address-compact {
+    display: none;
+}
 
 @media screen and (max-width: 980px) {
     // .page-section {
@@ -43,18 +46,18 @@ body {
     }
 }
 @media screen and (max-width: 670px){
-    .add-services_table{
+    .requisites_table, .contacts_table{
         display: none;
     }
-    .agreement-requisites-wrap{
-        // padding-right: 10px;
+    // .agreement-requisites-wrap{
+    //     padding-right: 10px;
+    // }
+    .agreement-requisites, .contacts_table-jpg {
+        display: block;
+        // width: 50%;
+        // margin-right: 5px;
+        // margin-left: 5px;
     }
-    .agreement-requisites {
-            display: block;
-            // width: 50%;
-            // margin-right: 5px;
-            // margin-left: 5px;
-        }
 }
 @media screen and (max-width: 455px) {
     .add-services_table {
@@ -70,5 +73,11 @@ body {
 @media screen and (max-width: 430px) {
     .add-services_table {
         font-size: 11px;
+    }
+    .main_address{
+        display: none;
+    }
+    .main_address-compact{
+        display: block;
     }
 }
